@@ -1,6 +1,9 @@
 from pypresence import Presence
 import time
 from threading import Thread
+import asyncio
+loop = asyncio.new_event_loop()
+asyncio.set_event_loop(loop)
 
 def run():
     start_time = time.time()

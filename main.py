@@ -11,5 +11,5 @@ while True:
     data = open('/Users/siddheshzantye/Desktop/Coding/Python/Presence/lyrics.txt', 'r')
     for i in data:
         time.sleep(15)
-        rpc.update(state="rick rolling you", details=f"{i}", large_image="rr", small_image="fs", buttons=[{"label":"not a rick roll", "url":"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}, {"label":"my shitty bot", "url":"https://discord.com/api/oauth2/authorize?client_id=896932646846885898&permissions=8&scope=bot%20applications.commands"}], start=start_time)
+        rpc.update(state="rickrolling you", details=f"{i}", large_image="rr", small_image="fs", buttons=[{"label":"not a rick roll", "url":"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}, {"label":"my shitty bot", "url":"https://discord.com/api/oauth2/authorize?client_id=896932646846885898&permissions=8&scope=bot%20applications.commands"}], start=start_time)
         

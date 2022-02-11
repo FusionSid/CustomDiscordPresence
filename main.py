@@ -14,7 +14,7 @@ def run():
         for line in data:
             c += 1
             rpc.update(
-                state="^ Line: ^", 
+                state="Line:", 
                 details=f"{line}", 
                 large_image="rr", 
                 large_text="Rick Astley", 

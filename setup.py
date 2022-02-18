@@ -1,7 +1,7 @@
 from setuptools import setup
 
 APP = ['main.py']
-DATA_FILES = ["lyrics.txt"]
+DATA_FILES = ["lyrics.txt", "get_app.scpt"]
 OPTIONS = {}
 
 setup(
